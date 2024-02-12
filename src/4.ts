@@ -1,11 +1,36 @@
-const key = new Key();
 
-const house = new MyHouse(key);
-const person = new Person(key);
+class Key {
+    constructor(parameters) {
+        
+    }
+};
 
-house.openDoor(person.getKey());
+class Person {
+    constructor(parameters) {
+        
+    }
+};
 
-house.comeIn(person);
+class House {
+    constructor(parameters) {
+        
+    }
+};
+
+class MyHouse {
+    constructor(parameters) {
+        
+    }
+};
+
+
+// const key = new Key();
+// const house = new MyHouse(key);
+// const person = new Person(key);
+
+// house.openDoor(person.getKey());
+
+// house.comeIn(person);
 
 
 export {};
